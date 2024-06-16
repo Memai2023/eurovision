@@ -1,0 +1,7 @@
+.footerContainer {
+    color: var(--color-white);
+    background-color: var(--bg-darkblue);
+    height:100px;
+    padding:24px;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+.winnerContainer {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: lighten;
+    background-image: url('../../assets/3-switzerland.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.winnerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+}
+
+.winnertext {
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 10px;
+    margin: 16px 0;
+    padding:10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.winnertext p {
+    font-size: 1.2rem;
+}
+
+.winnerImage img {
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .winnertext {
+        margin-bottom: 48px;
+    }
+
+    .winnertext h2 {
+        font-size: 3.5rem;
+        margin-bottom: 8px;
+    }
+    
+    .winnertext p {
+        font-size: 2rem;
+    }
+}

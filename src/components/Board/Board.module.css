@@ -1,0 +1,37 @@
+.boardContainer {
+    align-items: center;
+    background: url('../../assets/backgroundPink.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+.boardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.boardImage {
+    max-width: 100%;
+}
+
+.boardImage img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .boardContent h2{
+        font-size: 3rem;
+        margin-bottom: 32px;
+    }
+
+    .boardImage  img{
+        border-radius: 20px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+}
